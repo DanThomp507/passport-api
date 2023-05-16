@@ -25,6 +25,7 @@ const mindeeClient = new mindee.Client({
   apiKey: process.env.MINDEE_API_KEY,
 });
 
+app.use(express.urlencoded({ extended: true }));
 app.get('/', (req, res) => res.type('html').send(html));
 // Handle file upload with /api/passport route
 app.post(

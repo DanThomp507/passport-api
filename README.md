@@ -25,6 +25,8 @@ To start the API, run the following command: `npm start`
 
 The API will be running on `http://localhost:3001`.
 
+To get the passport data locally, run `curl -X POST -F 'passport=@/<insert file path>' http://localhost:3001/api/passport `
+
 ## API Endpoints
 
 ### POST /api/passport
