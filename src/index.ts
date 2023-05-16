@@ -2,6 +2,7 @@ import express from 'express';
 import multer from 'multer';
 import { config } from 'dotenv';
 import * as mindee from 'mindee';
+import { html } from './utils/html';
 
 const port = process.env.PORT || 3001;
 const app = express();
@@ -24,6 +25,7 @@ const mindeeClient = new mindee.Client({
   apiKey: process.env.MINDEE_API_KEY,
 });
 
+app.get('/', (req, res) => res.type('html').send(html));
 // Handle file upload with /api/passport route
 app.post(
   '/api/passport',
