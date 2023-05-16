@@ -19,9 +19,9 @@ Before running the API, make sure you have the following prerequisites installed
 
 4. Create a `.env` file in the project directory and provide the Mindee API key in the following format: `MINDEE_API_KEY=your_mindee_api_key`
 
-You will have to generate this key on the Mindee Platform: `https://platform.mindee.com/`
+You will have to generate this key on the Mindee Platform: https://platform.mindee.com/
 
-Instructions to do so are here: `https://developers.mindee.com/docs/create-api-key`
+Instructions to do so are here: https://developers.mindee.com/docs/create-api-key
 
 ## Local Usage
 
@@ -39,7 +39,7 @@ The Passport API is deployed and hosted on Render, a cloud platform for deployin
 
 The API endpoints are accessible at https://passport-api.onrender.com.
 
-An example of how you can hit these endpoints can be found on Postman: `https://www.postman.com/danthomp507/workspace/my-workspace/request/7132737-28387776-9c78-432d-99cd-26c51dd48870`
+An example of how you can hit these endpoints can be found on Postman: https://www.postman.com/danthomp507/workspace/my-workspace/request/7132737-28387776-9c78-432d-99cd-26c51dd48870
 
 In the request, all you need to do is update the passport file value with your own.
 
