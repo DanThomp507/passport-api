@@ -4,8 +4,9 @@
   "description": "",
   "main": "index.ts",
   "scripts": {
-    "start": "node dist/index.js",
-    "dev": "nodemon src/index.ts --exec ts-node"
+    "start": "node src/index.ts",
+    "dev": "nodemon src/index.ts --exec ts-node",
+    "build": "yarn"
   },
   "keywords": [],
   "author": "",

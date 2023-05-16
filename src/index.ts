@@ -3,6 +3,7 @@ import multer from 'multer';
 import { config } from 'dotenv';
 import * as mindee from 'mindee';
 
+const port = process.env.PORT || 3001;
 const app = express();
 
 // Load environment variables
@@ -51,6 +52,4 @@ app.post(
   }
 );
 
-app.listen(3001, () => {
-  console.log('App listening on port 3001');
-});
+app.listen(port, () => console.log(`App listening on port ${port}!`));
