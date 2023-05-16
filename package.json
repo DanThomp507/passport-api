@@ -3,10 +3,11 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.ts",
+  "type": "module",
   "scripts": {
     "start": "node src/index.ts",
     "dev": "nodemon src/index.ts --exec ts-node",
-    "build": "yarn"
+    "build": "npm install"
   },
   "keywords": [],
   "author": "",
